@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Sanmu</title>
-    <link>https://welldonesanmu.github.io/posts/</link>
+    <link>https://welldonesanmu3.github.io/posts/</link>
     <description>Recent content in Posts on Sanmu</description>
     <image>
       <title>Sanmu</title>
-      <url>https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Dec 2024 14:57:58 +0800</lastBuildDate><atom:link href="https://welldonesanmu.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Dec 2024 14:57:58 +0800</lastBuildDate><atom:link href="https://welldonesanmu3.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>25秋招</title>
-      <link>https://welldonesanmu.github.io/posts/25%E7%A7%8B%E6%8B%9B/</link>
+      <link>https://welldonesanmu3.github.io/posts/25%E7%A7%8B%E6%8B%9B/</link>
       <pubDate>Tue, 24 Dec 2024 14:57:58 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/25%E7%A7%8B%E6%8B%9B/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/25%E7%A7%8B%E6%8B%9B/</guid>
       <description>秋招没有告一段落 需要一直保持进步和努力！ 马上就要2025年了，更明确的目标，更深层次的驱动力，更前瞻的视野这是引领自己不断向前因素。 你知道的，前面的路还有很长，而你还未到达终点。</description>
     </item>
     
     <item>
       <title>DL</title>
-      <link>https://welldonesanmu.github.io/posts/dl/</link>
+      <link>https://welldonesanmu3.github.io/posts/dl/</link>
       <pubDate>Sun, 19 May 2024 09:06:49 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/dl/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/dl/</guid>
       <description>神经网络 DNN/MLP/ANN 全连接神经网络/多层感知器
 DNN是从多层感知器发展而来的第三代神经网络，DNN的网络结构分为三部分：输入层、隐藏层、输出层。
 DNN的层与层之间是全连接的，第i层的任意一个神经元一定与第i+1层的任意一个神经元连接.
@@ -55,10 +55,10 @@ LSTM的优点在于它可以避免梯度消失问题，而且能够处理长期�
     
     <item>
       <title>机器学习八股</title>
-      <link>https://welldonesanmu.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%AB%E8%82%A1/</link>
+      <link>https://welldonesanmu3.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%AB%E8%82%A1/</link>
       <pubDate>Thu, 16 May 2024 21:24:29 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%AB%E8%82%A1/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%AB%E8%82%A1/</guid>
       <description>特征工程 为什么要对数值类型的特征做归一化？ 加快收敛速度：对于一些优化算法（例如梯度下降法），归一化可以加快算法的收敛速度。如果特征的值范围差异很大，那么在计算梯度时，梯度的幅度也会差异很大，可能导致收敛速度变慢或者不稳定。归一化后，特征值被压缩到相同的范围内，使得梯度更加均衡，从而加快收敛速度。 提高模型训练的效率和稳定性：许多机器学习算法在训练过程中都会计算特征之间的距离或者权重。特征值范围较大的数值会对模型的训练产生较大的影响，导致模型可能更加关注这些特征而忽略其他特征。归一化可以使所有特征的数值范围相近，从而使得模型的训练更加平衡和稳定。 提高特征之间的可比性：特征归一化可以使不同特征之间的数值范围相同，便于对不同特征进行比较和分析。例如，在主成分分析（PCA）中，归一化可以确保每个特征对主成分的贡献是基于其方差，而不是其数值大小。 常见的归一化方法包括最小-最大归一化（Min-Max Normalization）和标准化（Standardization）。最小-最大归一化将特征值缩放到[0,1]范围内，而标准化则将特征值转换为均值为0、标准差为1的标准正态分布。
 经典算法 SVM的原理？ 支持向量机 SVM 的基本原理是通过找到一个最优的超平面，将不同类别的数据点分开。它主要关注以下几个方面：
 最大化分类间隔：SVM在寻找超平面时，不仅仅是简单地将数据分开，而是寻找能够最大化分类间隔的超平面。间隔是从超平面到最近数据点（支持向量）的距离，最大化间隔有助于提高模型的泛化能力。
@@ -79,10 +79,10 @@ $$ \min_{w, b, \xi} \frac{1}{2} |w|^2 + C \sum_{i=1}^{n} \xi_i $$
     
     <item>
       <title>推荐系统的中 EMBEDDING 的应用实践</title>
-      <link>https://welldonesanmu.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://welldonesanmu3.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Mon, 13 May 2024 21:35:16 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/</guid>
       <description>Word2Vec &amp;ndash; Item2Vec &amp;ndash; Graph Embedding Word2Vec Item2Vec Graph Embedding 1. DeepWalk 2014年的模型，主要思想是在物品组成的图结构上进行随机游走（Random Walk），产生大量物品序列，然后将这些物品序列作为训练样本输入Word2Vec进行训练，得到物品的Embedding。
 DeepWalk算法流程：
 2. LINE Large-scale Information Network Embedding
@@ -93,10 +93,10 @@ DeepWalk算法流程：
     
     <item>
       <title>SDGCL</title>
-      <link>https://welldonesanmu.github.io/posts/sdgcl/</link>
+      <link>https://welldonesanmu3.github.io/posts/sdgcl/</link>
       <pubDate>Sat, 11 May 2024 17:59:03 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/sdgcl/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/sdgcl/</guid>
       <description>SDGCL 核心思想和主要贡献是提出了一个新颖的自监督学习框架——逐步扩散图对比学习（Stepwise Diffusion Graph Contrastive Learning, SDGCL），用于改进图上的节点分类性能。这个框架主要通过一个逐步扩散 (stepwise diffusion) 的过程生成多个增强视图，这一过程利用了单个神经网络的输出，从而能更有效地捕捉节点之间的复杂交互关系，同时减少了内存和计算负担 (使用一个参数矩阵这和堆叠多层的GraphSAGE等GNN模型相比，减少了n-1个W)。此外，这个框架还设计了一个逐步对比损失（stepwise contrastive loss），通过整合所有扩散视图中正负样本的比较，进一步提高了节点嵌入的区分度。
 对比视图的Intuition Graph通常都是基于图同质性假设，但是异构图balabala。所以我们在一次call / forward中加入stepwise diffusion（本质是change A） 之后生成的中间embedding append并将这些中间层作为负样本，这样只需single layer就可以完成K-hop的长距离信息捕获（消融实验）。
 Stepwise Contrastive Loss 设计 利用逐步扩散过程，从单一神经网络输出生成多个增强视图。对于每一个节点，其在不同视图中的表示构成正样本对，而与其他节点在相同或不同视图中的表示构成负样本对。对每一对节点嵌入（来自同一节点但位于不同扩散视图中），计算它们之间的相似度，并与其与其他节点（负样本）的相似度进行比较。
@@ -110,10 +110,10 @@ Graph Diffusion技术是怎么实现的？ Graph Diffusion 模拟信息在图中
     
     <item>
       <title>GraphSAGE</title>
-      <link>https://welldonesanmu.github.io/posts/graphsage/</link>
+      <link>https://welldonesanmu3.github.io/posts/graphsage/</link>
       <pubDate>Sat, 11 May 2024 15:18:34 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/graphsage/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/graphsage/</guid>
       <description>GraphSAGE Inductive Representation Learning on Large Graphs
 两点强调：
 Inductive Large Graphs 首先明确一个概念：在推荐系统中Graph embedding采用直推式或称推导式（transductive）和归纳式（Inductive）两种，区别就是对于一个新加入的节点，模型是否能够在不重新学习之前预训练好的embedding的情况下，对这个新加入节点的特征进行嵌入表征。
@@ -130,10 +130,10 @@ TensorFlow实现：
     
     <item>
       <title>字节一面</title>
-      <link>https://welldonesanmu.github.io/posts/%E5%AD%97%E8%8A%82%E4%B8%80%E9%9D%A2/</link>
+      <link>https://welldonesanmu3.github.io/posts/%E5%AD%97%E8%8A%82%E4%B8%80%E9%9D%A2/</link>
       <pubDate>Fri, 10 May 2024 17:48:28 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/%E5%AD%97%E8%8A%82%E4%B8%80%E9%9D%A2/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/%E5%AD%97%E8%8A%82%E4%B8%80%E9%9D%A2/</guid>
       <description>论文相关
 详细实现（需要重新整理一版） 如果Graph Diffusion技术里 θ_k相当于是随机游走的概率因子的话，那和GraphSAGE有什么区别？ Loss是怎么实现的？和NCELoss的区别？ 两篇文章的区别是什么？ 对比视图的anchor选取？正负样本生成数量比例？ 对比学习常用的Loss是什么？ 使用Transformer去抽取图表征是否可行？ 了解GraphTransformer吗？ 推荐系统以及项目相关
 推荐系统的架构实现是什么？ 召回层常用的什么算法？ Graph embedding怎么用在推荐上面的？ 在各个阶段，图神经网络怎么应用？ 召回层除了局部敏感哈希外还有什么方法加速召回？ AUC曲线的物理意义？AUC越高越好那么超过多少算是越高？ 说一下DIN的结构？ 项目中提到的会在排序层加入组合类别的神经网络，具体讲一下？ 手撕
@@ -147,19 +147,19 @@ Timeline：5.7&amp;ndash;5.10（等挂）
     
     <item>
       <title>English writing</title>
-      <link>https://welldonesanmu.github.io/posts/english_writing/</link>
+      <link>https://welldonesanmu3.github.io/posts/english_writing/</link>
       <pubDate>Wed, 12 Apr 2023 15:02:38 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/english_writing/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/english_writing/</guid>
       <description>Notes Move 1 Establishing a research territory Move 2 Establishing a niche Move 3 Presenting the present work </description>
     </item>
     
     <item>
       <title>2023.4.11</title>
-      <link>https://welldonesanmu.github.io/posts/2023.4.11/</link>
+      <link>https://welldonesanmu3.github.io/posts/2023.4.11/</link>
       <pubDate>Tue, 11 Apr 2023 23:46:38 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/2023.4.11/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/2023.4.11/</guid>
       <description>是你吗？ 今天给我的感觉已经像是触摸在云层中的样子了，可能是可能不是，可能触碰可能没有触碰，可能只剩下了一种阳光下开心微笑的剪影，也可能是Creep在心中回荡。
 是真实的吗？
 是虚假的吗？
@@ -173,10 +173,10 @@ Timeline：5.7&amp;ndash;5.10（等挂）
     
     <item>
       <title>Git</title>
-      <link>https://welldonesanmu.github.io/posts/git/</link>
+      <link>https://welldonesanmu3.github.io/posts/git/</link>
       <pubDate>Mon, 10 Apr 2023 14:36:09 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/git/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/git/</guid>
       <description>Git 推送的用法及常见指令 echo &amp;ldquo;# Blog&amp;rdquo; &amp;raquo; README.md git init git add README.md git commit -m &amp;ldquo;first commit&amp;rdquo; git branch -M main git remote add origin git@github.com:welldonesanmu/Blog.git git push -u origin main
 .md 文件换行：在每一行的末尾加上 &amp;ldquo;&amp;quot; ,然后再回车键。
 新增了一个脚本，用于每次添加完之后自动deploy.</description>
@@ -184,10 +184,10 @@ Timeline：5.7&amp;ndash;5.10（等挂）
     
     <item>
       <title>2023.4.9</title>
-      <link>https://welldonesanmu.github.io/posts/2023.4.9/</link>
+      <link>https://welldonesanmu3.github.io/posts/2023.4.9/</link>
       <pubDate>Sun, 09 Apr 2023 23:21:57 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/2023.4.9/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/2023.4.9/</guid>
       <description>认识她的第9天 今天晚上看了电影，但是没有发给她，只在朋友圈发了一条复旦新闻馆动态，像预想的一样，没有收到任何评论和点赞。我深深呼吸了一口气，都是好事啦。</description>
     </item>
     

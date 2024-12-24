@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>GNNs on Sanmu</title>
-    <link>https://welldonesanmu.github.io/tags/gnns/</link>
+    <link>https://welldonesanmu3.github.io/tags/gnns/</link>
     <description>Recent content in GNNs on Sanmu</description>
     <image>
       <title>Sanmu</title>
-      <url>https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 May 2024 15:18:34 +0800</lastBuildDate><atom:link href="https://welldonesanmu.github.io/tags/gnns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 May 2024 15:18:34 +0800</lastBuildDate><atom:link href="https://welldonesanmu3.github.io/tags/gnns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GraphSAGE</title>
-      <link>https://welldonesanmu.github.io/posts/graphsage/</link>
+      <link>https://welldonesanmu3.github.io/posts/graphsage/</link>
       <pubDate>Sat, 11 May 2024 15:18:34 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/graphsage/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/graphsage/</guid>
       <description>GraphSAGE Inductive Representation Learning on Large Graphs
 两点强调：
 Inductive Large Graphs 首先明确一个概念：在推荐系统中Graph embedding采用直推式或称推导式（transductive）和归纳式（Inductive）两种，区别就是对于一个新加入的节点，模型是否能够在不重新学习之前预训练好的embedding的情况下，对这个新加入节点的特征进行嵌入表征。

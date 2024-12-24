@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Graph embedding on Sanmu</title>
-    <link>https://welldonesanmu.github.io/tags/graph-embedding/</link>
+    <link>https://welldonesanmu3.github.io/tags/graph-embedding/</link>
     <description>Recent content in Graph embedding on Sanmu</description>
     <image>
       <title>Sanmu</title>
-      <url>https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 May 2024 21:35:16 +0800</lastBuildDate><atom:link href="https://welldonesanmu.github.io/tags/graph-embedding/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 May 2024 21:35:16 +0800</lastBuildDate><atom:link href="https://welldonesanmu3.github.io/tags/graph-embedding/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>推荐系统的中 EMBEDDING 的应用实践</title>
-      <link>https://welldonesanmu.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/</link>
+      <link>https://welldonesanmu3.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Mon, 13 May 2024 21:35:16 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/</guid>
       <description>Word2Vec &amp;ndash; Item2Vec &amp;ndash; Graph Embedding Word2Vec Item2Vec Graph Embedding 1. DeepWalk 2014年的模型，主要思想是在物品组成的图结构上进行随机游走（Random Walk），产生大量物品序列，然后将这些物品序列作为训练样本输入Word2Vec进行训练，得到物品的Embedding。
 DeepWalk算法流程：
 2. LINE Large-scale Information Network Embedding

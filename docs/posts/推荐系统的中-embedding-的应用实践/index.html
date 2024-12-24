@@ -14,18 +14,18 @@ DeepWalk算法流程：
 大规模图节点的表示学习 有向、有权图的节点表示学习 无监督的，不使用神经网络架构的Graph Embedding技术。LINE 的方法是基于直接优化节点嵌入向量，通过显式定义的一阶和二阶相似性损失函数进行优化，而不涉及神经网络的多层结构或非线性变换。
 3. Node2Vec 4. EGES 推荐系统中EMBEDDING的应用实践 - 卢明冬的博客 (lumingdong.cn)">
 <meta name="author" content="Sanmu">
-<link rel="canonical" href="https://welldonesanmu.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/">
+<link rel="canonical" href="https://welldonesanmu3.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/">
 <meta name="google-site-verification" content="XYZabc">
 <meta name="yandex-verification" content="XYZabc">
 <meta name="msvalidate.01" content="XYZabc">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.76360485988b2c36106a3ffacc6d884d6bd71cabfcc81ca9a4964617d251b660.css" integrity="sha256-djYEhZiLLDYQaj/6zG2ITWvXHKv8yByppJZGF9JRtmA=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.f413e19d0714851f6474e7ee9632408e58ac146fbdbe62747134bea2fa3415e0.js" integrity="sha256-9BPhnQcUhR9kdOfuljJAjlisFG&#43;9vmJ0cTS&#43;ovo0FeA="
     onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="https://welldonesanmu.github.io/img/avatars.jpg">
-<link rel="icon" type="image/png" sizes="16x16" href="https://welldonesanmu.github.io/img/avatars.jpg">
-<link rel="icon" type="image/png" sizes="32x32" href="https://welldonesanmu.github.io/img/avatars.jpg">
-<link rel="apple-touch-icon" href="https://welldonesanmu.github.io/img/avatars.jpg">
-<link rel="mask-icon" href="https://welldonesanmu.github.io/img/avatars.jpg">
+<link rel="icon" href="https://welldonesanmu3.github.io/img/avatars.jpg">
+<link rel="icon" type="image/png" sizes="16x16" href="https://welldonesanmu3.github.io/img/avatars.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="https://welldonesanmu3.github.io/img/avatars.jpg">
+<link rel="apple-touch-icon" href="https://welldonesanmu3.github.io/img/avatars.jpg">
+<link rel="mask-icon" href="https://welldonesanmu3.github.io/img/avatars.jpg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <noscript>
@@ -92,12 +92,12 @@ DeepWalk算法流程：
 大规模图节点的表示学习 有向、有权图的节点表示学习 无监督的，不使用神经网络架构的Graph Embedding技术。LINE 的方法是基于直接优化节点嵌入向量，通过显式定义的一阶和二阶相似性损失函数进行优化，而不涉及神经网络的多层结构或非线性变换。
 3. Node2Vec 4. EGES 推荐系统中EMBEDDING的应用实践 - 卢明冬的博客 (lumingdong.cn)" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://welldonesanmu.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/" /><meta property="og:image" content="https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://welldonesanmu3.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/" /><meta property="og:image" content="https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-05-13T21:35:16+08:00" />
 <meta property="article:modified_time" content="2024-05-13T21:35:16+08:00" /><meta property="og:site_name" content="Sanmu" />
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"/>
+<meta name="twitter:image" content="https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"/>
 
 <meta name="twitter:title" content="推荐系统的中 EMBEDDING 的应用实践"/>
 <meta name="twitter:description" content="Word2Vec &ndash; Item2Vec &ndash; Graph Embedding Word2Vec Item2Vec Graph Embedding 1. DeepWalk 2014年的模型，主要思想是在物品组成的图结构上进行随机游走（Random Walk），产生大量物品序列，然后将这些物品序列作为训练样本输入Word2Vec进行训练，得到物品的Embedding。
@@ -117,13 +117,13 @@ DeepWalk算法流程：
       "@type": "ListItem",
       "position":  2 ,
       "name": "Posts",
-      "item": "https://welldonesanmu.github.io/posts/"
+      "item": "https://welldonesanmu3.github.io/posts/"
     }, 
     {
       "@type": "ListItem",
       "position":  3 ,
       "name": "推荐系统的中 EMBEDDING 的应用实践",
-      "item": "https://welldonesanmu.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/"
+      "item": "https://welldonesanmu3.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/"
     }
   ]
 }
@@ -149,14 +149,14 @@ DeepWalk算法流程：
   }],
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://welldonesanmu.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/"
+    "@id": "https://welldonesanmu3.github.io/posts/%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F%E7%9A%84%E4%B8%AD-embedding-%E7%9A%84%E5%BA%94%E7%94%A8%E5%AE%9E%E8%B7%B5/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Sanmu",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://welldonesanmu.github.io/img/avatars.jpg"
+      "url": "https://welldonesanmu3.github.io/img/avatars.jpg"
     }
   }
 }
@@ -178,8 +178,8 @@ DeepWalk算法流程：
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://welldonesanmu.github.io" accesskey="h" title="Home (Alt + H)">
-                <img src="https://welldonesanmu.github.io/img/avatars.jpg" alt="" aria-label="logo"
+            <a href="https://welldonesanmu3.github.io" accesskey="h" title="Home (Alt + H)">
+                <img src="https://welldonesanmu3.github.io/img/avatars.jpg" alt="" aria-label="logo"
                     height="35">Home</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
@@ -206,17 +206,17 @@ DeepWalk算法流程：
         </div>
         <ul id="menu">
             <li>
-                <a href="https://welldonesanmu.github.io/archives/" title="Archives">
+                <a href="https://welldonesanmu3.github.io/archives/" title="Archives">
                     <span>Archives</span>
                 </a>
             </li>
             <li>
-                <a href="https://welldonesanmu.github.io/tags/" title="Tags">
+                <a href="https://welldonesanmu3.github.io/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="https://welldonesanmu.github.io/about/" title="About">
+                <a href="https://welldonesanmu3.github.io/about/" title="About">
                     <span>About</span>
                 </a>
             </li>
@@ -227,7 +227,7 @@ DeepWalk算法流程：
 
 <article class="post-single">
   <header class="post-header">
-    <div class="breadcrumbs"><a href="https://welldonesanmu.github.io">Home</a>&nbsp;»&nbsp;<a href="https://welldonesanmu.github.io/posts/">Posts</a></div>
+    <div class="breadcrumbs"><a href="https://welldonesanmu3.github.io">Home</a>&nbsp;»&nbsp;<a href="https://welldonesanmu3.github.io/posts/">Posts</a></div>
     <h1 class="post-title">
       推荐系统的中 EMBEDDING 的应用实践
     </h1>
@@ -274,15 +274,15 @@ DeepWalk算法流程：
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://welldonesanmu.github.io/tags/graph-embedding/">Graph embedding</a></li>
+      <li><a href="https://welldonesanmu3.github.io/tags/graph-embedding/">Graph embedding</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://welldonesanmu.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%AB%E8%82%A1/">
+  <a class="prev" href="https://welldonesanmu3.github.io/posts/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%85%AB%E8%82%A1/">
     <span class="title">« Prev</span>
     <br>
     <span>机器学习八股</span>
   </a>
-  <a class="next" href="https://welldonesanmu.github.io/posts/sdgcl/">
+  <a class="next" href="https://welldonesanmu3.github.io/posts/sdgcl/">
     <span class="title">Next »</span>
     <br>
     <span>SDGCL</span>
@@ -294,7 +294,7 @@ DeepWalk算法流程：
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://welldonesanmu.github.io">Sanmu</a></span>
+    <span>&copy; 2024 <a href="https://welldonesanmu3.github.io">Sanmu</a></span>
 
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">

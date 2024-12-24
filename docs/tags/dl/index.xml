@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>DL on Sanmu</title>
-    <link>https://welldonesanmu.github.io/tags/dl/</link>
+    <link>https://welldonesanmu3.github.io/tags/dl/</link>
     <description>Recent content in DL on Sanmu</description>
     <image>
       <title>Sanmu</title>
-      <url>https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://welldonesanmu.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://welldonesanmu3.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 19 May 2024 09:06:49 +0800</lastBuildDate><atom:link href="https://welldonesanmu.github.io/tags/dl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 May 2024 09:06:49 +0800</lastBuildDate><atom:link href="https://welldonesanmu3.github.io/tags/dl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DL</title>
-      <link>https://welldonesanmu.github.io/posts/dl/</link>
+      <link>https://welldonesanmu3.github.io/posts/dl/</link>
       <pubDate>Sun, 19 May 2024 09:06:49 +0800</pubDate>
       
-      <guid>https://welldonesanmu.github.io/posts/dl/</guid>
+      <guid>https://welldonesanmu3.github.io/posts/dl/</guid>
       <description>神经网络 DNN/MLP/ANN 全连接神经网络/多层感知器
 DNN是从多层感知器发展而来的第三代神经网络，DNN的网络结构分为三部分：输入层、隐藏层、输出层。
 DNN的层与层之间是全连接的，第i层的任意一个神经元一定与第i+1层的任意一个神经元连接.
