@@ -11,7 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Dec 2024 14:57:58 +0800</lastBuildDate><atom:link href="https://welldonesanmu3.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Dec 2024 21:09:31 +0800</lastBuildDate><atom:link href="https://welldonesanmu3.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily</title>
+      <link>https://welldonesanmu3.github.io/tags/daily/</link>
+      <pubDate>Tue, 24 Dec 2024 21:09:31 +0800</pubDate>
+      
+      <guid>https://welldonesanmu3.github.io/tags/daily/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Interview</title>
       <link>https://welldonesanmu3.github.io/tags/interview/</link>
@@ -22,47 +31,11 @@
     </item>
     
     <item>
-      <title>DL</title>
-      <link>https://welldonesanmu3.github.io/tags/dl/</link>
+      <title>DNN</title>
+      <link>https://welldonesanmu3.github.io/tags/dnn/</link>
       <pubDate>Sun, 19 May 2024 09:06:49 +0800</pubDate>
       
-      <guid>https://welldonesanmu3.github.io/tags/dl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ML</title>
-      <link>https://welldonesanmu3.github.io/tags/ml/</link>
-      <pubDate>Thu, 16 May 2024 21:24:29 +0800</pubDate>
-      
-      <guid>https://welldonesanmu3.github.io/tags/ml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Graph embedding</title>
-      <link>https://welldonesanmu3.github.io/tags/graph-embedding/</link>
-      <pubDate>Mon, 13 May 2024 21:35:16 +0800</pubDate>
-      
-      <guid>https://welldonesanmu3.github.io/tags/graph-embedding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GCLs</title>
-      <link>https://welldonesanmu3.github.io/tags/gcls/</link>
-      <pubDate>Sat, 11 May 2024 17:59:03 +0800</pubDate>
-      
-      <guid>https://welldonesanmu3.github.io/tags/gcls/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GNNs</title>
-      <link>https://welldonesanmu3.github.io/tags/gnns/</link>
-      <pubDate>Sat, 11 May 2024 15:18:34 +0800</pubDate>
-      
-      <guid>https://welldonesanmu3.github.io/tags/gnns/</guid>
+      <guid>https://welldonesanmu3.github.io/tags/dnn/</guid>
       <description></description>
     </item>
     
