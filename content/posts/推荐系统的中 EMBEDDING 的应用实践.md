@@ -6,7 +6,7 @@ draft: false
 author: ["Sanmu"] 
 comments: true 
 tags:
-  - Graph embedding            
+  - Interview            
 ---
 
 # Word2Vec -- Item2Vec -- Graph Embedding

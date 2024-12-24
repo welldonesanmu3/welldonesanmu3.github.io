@@ -6,7 +6,7 @@ draft: false
 author: ["Sanmu"] 
 comments: true 
 tags:
-  - DL            
+  - DNN            
 
 ---
 
